@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2787DCCD309D2999005362EE /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787DCCC309D2999005362EE /* user.swift */; };
+		2787DCCF309D2DE9005362EE /* book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2787DCCE309D2DE9005362EE /* book.swift */; };
 		A0000000000000000000000D /* HelloWorldApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000B /* HelloWorldApp.swift */; };
 		A0000000000000000000000E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0000000000000000000000C /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2787DCCC309D2999005362EE /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		2787DCCE309D2DE9005362EE /* book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book.swift; sourceTree = "<group>"; };
 		A00000000000000000000006 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0000000000000000000000B /* HelloWorldApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldApp.swift; sourceTree = "<group>"; };
 		A0000000000000000000000C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,7 @@
 			isa = PBXGroup;
 			children = (
 				2787DCCC309D2999005362EE /* user.swift */,
+				2787DCCE309D2DE9005362EE /* book.swift */,
 				A00000000000000000000005 /* HelloWorld */,
 				A00000000000000000000003 /* Products */,
 			);
@@ -107,6 +110,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2787DCCF309D2DE9005362EE /* book.swift in Sources */,
 				A0000000000000000000000D /* HelloWorldApp.swift in Sources */,
 				A0000000000000000000000E /* ContentView.swift in Sources */,
 				2787DCCD309D2999005362EE /* user.swift in Sources */,

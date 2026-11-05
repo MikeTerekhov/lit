@@ -11,6 +11,14 @@ struct ContentView: View {
             Text("pass is: \(user.password)")
                 .font(.title3)
                 .foregroundStyle(.secondary)
+            List(user.books) { book in
+                            HStack {
+                                Text(book.title)
+                                    .font(.body)
+                                Text(book.author)
+                                    .font(.body)
+                            }
+                        }
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
